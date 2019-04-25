@@ -1,4 +1,6 @@
 ---
-# EXP NEEDED PER LEVEL
-MaxExp: 100
+# - EXP Needed per level
+MaxExp: 10
+# - Miner Level UP message
+MinerLevelUpMessage: "§k§e!!§r §a§lMiner §r§7- You are now level :"
 ...
