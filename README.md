@@ -11,7 +11,8 @@ This plugin bring an MMO Level style to your pmmp server
 
 i'm trying to make eveything configurable, if you have any suggestions don't hesitate to ask
 
-( Here is an exemple of what you can customise )![Level up message that show up when you pass an Miner level](https://cdn.discordapp.com/attachments/570975788631851018/571104477696884758/unknown.png)
+( Here is an exemple of what you can customise )!
+[Level up message that show up when you pass an Miner level](https://cdn.discordapp.com/attachments/570975788631851018/571104477696884758/unknown.png)
 
 
 ## Things to do
@@ -20,9 +21,11 @@ Here are things that i'm working on for this project
 
 |         Done/Not done       |     Things       |
 |----------------|-------------------------------|
-|Not done|`'Make an command to check you'r level'`            |
+|Done |`'Make an command to check you'r level'`            |
 |Not done          |`"Lumberjack Levels"`            |
 |Not done          |`Builder Levels`|
 |Not done          |`Crafter Levels`|
 |Done          |`Miner Levels`|
 |Done          |`make an config file for miner level`|
+
+[level command](https://cdn.discordapp.com/attachments/570975788631851018/571114540259999755/Level.gif)
