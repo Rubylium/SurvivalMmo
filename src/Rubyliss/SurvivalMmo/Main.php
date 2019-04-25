@@ -18,6 +18,7 @@ class Main extends PluginBase {
         @mkdir($this->getDataFolder()."resources/LevelData/MineurLevel/");
         $this->getLogger()->info("§eSurvivalMmo Main : §aON!");
         $this->getServer()->getPluginManager()->registerEvents(new MinerJob($this), $this);
+        $this->getServer()->getCommandMap()->register("level", new LevelCommand($this, "level"));
 
 	}
 
