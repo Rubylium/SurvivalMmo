@@ -18,7 +18,7 @@ version: 0.0.1
 #     This is denoted by a minor API bump, e.g. 2.0.0 -> 2.1.0. The server will load plugins with an equivalent or older minor version.
 # - Minor bug fixes or insignificant alterations to the API.
 #     This is denoted by a patch bump, e.g. 1.13.0 -> 1.13.1
-api: 3.7.2
+api: [2.0.0,1.0.0,3.0.0-ALPHA1,3.0.0-ALPHA2,3.0.0-ALPHA3,3.0.0-ALPHA4,3.0.0-ALPHA5,3.0.0,3.0.0-ALPHA11,3.0.0-ALPHA10]
 
 #When to load the plugin. There are currently two options for this: STARTUP and POSTWORLD. Usually POSTWORLD will do fine.
 load: POSTWORLD
