@@ -1,3 +1,7 @@
+[![](https://poggit.pmmp.io/shield.state/SurvivalMmo)](https://poggit.pmmp.io/p/SurvivalMmo)
+<a href="https://poggit.pmmp.io/p/SurvivalMmo"><img src="https://poggit.pmmp.io/shield.state/SurvivalMmo"></a>
+[![](https://poggit.pmmp.io/shield.api/SurvivalMmo)](https://poggit.pmmp.io/p/SurvivalMmo)
+<a href="https://poggit.pmmp.io/p/SurvivalMmo"><img src="https://poggit.pmmp.io/shield.api/SurvivalMmo"></a>
 # SurvivalMmo
 
 This plugin bring an MMO Level style to your pmmp server
