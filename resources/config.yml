@@ -1,6 +1,24 @@
 ---
-# - EXP Needed per level
-MaxExp: 10
+#
+#  █▄░▄█ ▀ █▄░█ █▀▀ █▀▀▄
+#  █░█░█ █ █░▀█ █▀▀ █▐█▀
+#  ▀░░░▀ ▀ ▀░░▀ ▀▀▀ ▀░▀▀
+#
+# - EXP Needed per miner level
+MinerMaxExp: 10
 # - Miner Level UP message
 MinerLevelUpMessage: "§k§e!!§r §a§lMiner §r§7- You are now level :"
+# - EXP per block broke
+MinerExpPerBlock: 0.5
+#
+#  █░░ █░█ █▄░▄█ █▀▄ █▀▀ █▀▀▄ ░░▀ ▄▀▄ ▄▀ █░▄▀
+#  █░▄ █░█ █░█░█ █▀█ █▀▀ █▐█▀ ▄░█ █▀█ █░ █▀▄░
+#  ▀▀▀ ░▀░ ▀░░░▀ ▀▀░ ▀▀▀ ▀░▀▀ ▀▀▀ ▀░▀ ░▀ ▀░▀▀
+#
+# - EXP Needed per lumberjack level
+LumberjackMaxExp: 10
+# - Miner Level UP message
+LumberjackLevelUpMessage: "§k§e!!§r §a§lLumberjack §r§7- You are now level :"
+# - EXP per block broke
+LumberjackExpPerBlock: 0.5
 ...
