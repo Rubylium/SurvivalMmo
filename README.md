@@ -30,10 +30,11 @@ Here are things that i'm working on for this project
 |         Done/Not done       |     Things       |
 |----------------|-------------------------------|
 |Done |`'Make an command to check you'r level'`            |
-|Not done          |`"Lumberjack Levels"`            |
+|Done          |`"Lumberjack Levels"`            |
 |Not done          |`Builder Levels`|
 |Not done          |`Crafter Levels`|
 |Done          |`Miner Levels`|
 |Done          |`make an config file for miner level`|
+|Done          |`better config`|
 
 ![enter image description here](https://cdn.discordapp.com/attachments/570975788631851018/571114540259999755/Level.gif)
