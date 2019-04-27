@@ -30,10 +30,8 @@ class FarmerJob implements Listener {
 
         $player = $event->getPlayer();
         $name = $player->getName();
-
-        $blocks = ["435", "295"];
+        $blocks = [59, 244, 60, 105, 104];
         if(in_array($event->getBlock()->getId(), $blocks)){
-            // Check si c'est un nouveau joueurs, création du fichier level mineur
             if($config->get('FarmerXP') >= $config2->get('FarmerMaxExp') ) { // Check Level up
                 $config->set('FarmerXP',1);
                 $config->set('FarmerLevel',$config->get('FarmerLevel')+ 1);
@@ -58,9 +56,8 @@ class FarmerJob implements Listener {
         $player = $event->getPlayer();
         $name = $player->getName();
 
-        $blocks = ["435", "362", "361", "295"];
+        $blocks = [59, 244, 60, 105, 104];
         if(in_array($event->getBlock()->getId(), $blocks)){
-            // Check si c'est un nouveau joueurs, création du fichier level mineur
             if($config->get('FarmerXP') >= $config2->get('FarmerMaxExp') ) { // Check Level up
                 $config->set('FarmerXP',1);
                 $config->set('FarmerLevel',$config->get('FarmerLevel')+ 1);
