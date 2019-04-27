@@ -14,7 +14,7 @@ This plugin bring an MMO Level style to your pmmp server
 - Builder Levels
 - Farmer levels
 
-Maybe more things to come in the futur.
+
 ![](https://cdn.discordapp.com/attachments/496362954791583744/571635595806507018/unknown.png)
 
 
