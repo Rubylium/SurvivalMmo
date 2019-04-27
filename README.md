@@ -1,3 +1,4 @@
+
 [![](https://poggit.pmmp.io/shield.state/SurvivalMmo)](https://poggit.pmmp.io/p/SurvivalMmo)
 <a href="https://poggit.pmmp.io/p/SurvivalMmo"><img src="https://poggit.pmmp.io/shield.state/SurvivalMmo"></a>
 [![](https://poggit.pmmp.io/shield.api/SurvivalMmo)](https://poggit.pmmp.io/p/SurvivalMmo)
@@ -11,8 +12,10 @@ This plugin bring an MMO Level style to your pmmp server
 - Lumberjack Levels
 - Crafter Levels
 - Builder Levels
+- Farmer levels
 
 Maybe more things to come in the futur.
+![](https://cdn.discordapp.com/attachments/496362954791583744/571635595806507018/unknown.png)
 
 
 # Config
@@ -31,11 +34,12 @@ Here are things that i'm working on for this project
 |----------------|-------------------------------|
 |Done |`Make an command to check you'r level`            |
 |Done          |`Lumberjack Levels`            |
+|Done | `Farmer Levels` |
+|Not done | `More custom for miner job ( EXP per ores )` |
+|Done | `Add % on the level command` |
 |Done          |`Farmer Levels`|
 |Not done          |`Builder Levels`|
 |Not done          |`Crafter Levels`|
 |Done          |`Miner Levels`|
 |Done          |`make an config file for miner level`|
 |Done          |`better config`|
-
-![enter image description here](https://cdn.discordapp.com/attachments/570975788631851018/571114540259999755/Level.gif)
