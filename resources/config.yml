@@ -21,4 +21,17 @@ LumberjackMaxExp: 10
 LumberjackLevelUpMessage: "§k§e!!§r §a§lLumberjack §r§7- You are now level :"
 # - EXP per block broke
 LumberjackExpPerBlock: 0.5
+#
+#  █▀ ▄▀▄ █▀▀▄ █▄░▄█ █▀▀ █▀▀▄
+#  █▀ █▀█ █▐█▀ █░█░█ █▀▀ █▐█▀
+#  ▀░ ▀░▀ ▀░▀▀ ▀░░░▀ ▀▀▀ ▀░▀▀
+#
+# - EXP Needed per farmer level
+FarmerMaxExp: 10
+# - farmer Level UP message
+FarmerLevelUpMessage: "§k§e!!§r §a§lLumberjack §r§7- You are now level :"
+# - EXP per block broke
+FarmerExpPerBlock: 0.5
+# - EXP per block placed ( Seeds )
+FarmerExpPerBlockPlace: 0.1
 ...

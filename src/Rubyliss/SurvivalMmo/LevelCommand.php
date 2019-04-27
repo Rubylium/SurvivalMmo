@@ -23,11 +23,14 @@ class LevelCommand extends PluginCommand
         $configMiner = new Config($this->main->getDataFolder() . "resources/LevelData/MinerLevel/" . strtolower($sender->getName()) . ".yml", Config::YAML);
         $config2 = new Config($this->main->getDataFolder() . "config.yml", Config::YAML);
         $configLumberjack = new Config($this->main->getDataFolder() . "resources/LevelData/LumberjackLevel/" . strtolower($sender->getName()) . ".yml", Config::YAML);
+        $configFarmer = new Config($this->main->getDataFolder() . "resources/LevelData/FarmerLevel/" . strtolower($sender->getName()) . ".yml", Config::YAML);
 
         $MinerXP = (int) $configMiner->get('MinerXP');
         $Minerlevel = $configMiner->get('MinerLevel');
         $LumberjackXP = (int) $configLumberjack->get('LumberjackXP');
         $Lumberjacklevel = $configLumberjack->get('LumberjackLevel');
+        $FarmerXP = (int) $configFarmer->get('FarmerXP');
+        $Farmerlevel = $configFarmer->get('FarmerLevel');
 
         $sender->sendMessage('§k§e!!§r §7-------------------- §k§e!!');
         $sender->sendMessage(' ');
@@ -37,6 +40,9 @@ class LevelCommand extends PluginCommand
         $sender->sendMessage('§7--------------------');
         $sender->sendMessage('§bLumberjack Level:§7 '.$Lumberjacklevel);
         $sender->sendMessage('§bLumberjack XP:§7 '. $LumberjackXP . '§a/§7'. $config2->get('LumberjackMaxExp') . "" );
+        $sender->sendMessage('§7--------------------');
+        $sender->sendMessage('§bFarmer Level:§7 '.$Farmerlevel);
+        $sender->sendMessage('§bFarmer XP:§7 '. $FarmerXP . '§a/§7'. $config2->get('FarmerMaxExp') . "" );
         $sender->sendMessage(' ');
         $sender->sendMessage(' ');
         $sender->sendMessage('§k§e!!§r §7-------------------- §k§e!!');
