@@ -29,8 +29,9 @@ Here are things that i'm working on for this project
 
 |         Done/Not done       |     Things       |
 |----------------|-------------------------------|
-|Done |`'Make an command to check you'r level'`            |
-|Done          |`"Lumberjack Levels"`            |
+|Done |`Make an command to check you'r level`            |
+|Done          |`Lumberjack Levels`            |
+|Done          |`Farmer Levels`|
 |Not done          |`Builder Levels`|
 |Not done          |`Crafter Levels`|
 |Done          |`Miner Levels`|
