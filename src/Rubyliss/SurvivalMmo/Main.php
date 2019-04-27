@@ -31,7 +31,6 @@ class Main extends PluginBase implements Listener{
 
     public function OnJoin(PlayerJoinEvent $event) {
         $name = $event->getPlayer()->getName();
-        $this->getLogger()->info("§eSurvivalMmo: §aOnJoin");
 
         if(!(file_exists($this->getDataFolder()."resources/LevelData/LumberjackLevel/".strtolower($name).".yml"))){
             $configLumberjack = new Config($this->getDataFolder() . "resources/LevelData/LumberjackLevel/" . strtolower($name) . ".yml", Config::YAML);
