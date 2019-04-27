@@ -20,7 +20,7 @@ class LevelCommand extends PluginCommand
     public function execute(CommandSender $sender, $currentAlias, array $args)
 
     {
-        $configMiner = new Config($this->main->getDataFolder() . "resources/LevelData/MineurLevel/" . strtolower($sender->getName()) . ".yml", Config::YAML);
+        $configMiner = new Config($this->main->getDataFolder() . "resources/LevelData/MinerLevel/" . strtolower($sender->getName()) . ".yml", Config::YAML);
         $config2 = new Config($this->main->getDataFolder() . "config.yml", Config::YAML);
         $configLumberjack = new Config($this->main->getDataFolder() . "resources/LevelData/LumberjackLevel/" . strtolower($sender->getName()) . ".yml", Config::YAML);
 

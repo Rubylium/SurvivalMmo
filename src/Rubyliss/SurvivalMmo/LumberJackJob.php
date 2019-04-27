@@ -30,7 +30,7 @@ class LumberJackJob implements Listener {
         $player = $event->getPlayer();
         $name = $player->getName();
 
-        $blocks = array(5, 5.1, 5.2, 5.3, 5.4, 5.5, 17, 17.1, 17.2, 17.3, 43.2, 44.2, 53, 72, 96, 125, 125.1, 125.2, 125.3, 125.4, 125.5, 126, 134, 135, 136, 143, 162, 163, 164);
+        $blocks = ["5", "5:1", "5:2", "5:3", "5:4", "5:5", "17", "17:1", "17:2", "17:3", "43:2", "44:2", "53", "72", "96", "125", "125:1", "125:2", "125:3", "125:4", "125:5", "126", "134", "135", "136", "143", "162", "163", "164"];
         if(in_array($event->getBlock()->getId(), $blocks)){
             // Check si c'est un nouveau joueurs, création du fichier level mineur
             if($config->get('LumberjackXP') >= $config2->get('LumberjackMaxExp') ) { // Check Level up
