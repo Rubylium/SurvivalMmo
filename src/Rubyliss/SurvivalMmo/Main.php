@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener{
         @mkdir($this->getDataFolder()."resources/LevelData/FarmerLevel/");
         $this->getLogger()->info("§eSurvivalMmo Main : §aON!");
         $this->getServer()->getPluginManager()->registerEvents(new MinerJob($this), $this);
-        $this->getServer()->getPluginManager()->registerEvents(new LumberjackJob($this), $this);
+        $this->getServer()->getPluginManager()->registerEvents(new LumberJackJob($this), $this);
         $this->getServer()->getPluginManager()->registerEvents(new FarmerJob($this), $this);
         $this->getServer()->getCommandMap()->register("level", new LevelCommand($this, "level"));
         $this->getServer()->getPluginManager()->registerEvents($this,$this);

@@ -11,6 +11,8 @@ MinerLevelUpMessage: "§k§e!!§r §a§lMiner §r§7- You are now level :"
 # - EXP per block broke
 MinerExpPerBlock: 0.5
 #
+DisplayBlockBroken: true
+#
 #  █░░ █░█ █▄░▄█ █▀▄ █▀▀ █▀▀▄ ░░▀ ▄▀▄ ▄▀ █░▄▀
 #  █░▄ █░█ █░█░█ █▀█ █▀▀ █▐█▀ ▄░█ █▀█ █░ █▀▄░
 #  ▀▀▀ ░▀░ ▀░░░▀ ▀▀░ ▀▀▀ ▀░▀▀ ▀▀▀ ▀░▀ ░▀ ▀░▀▀

@@ -9,6 +9,7 @@ use pocketmine\event\Listener;
 
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\block\BlockBreakEvent;
+use pocketmine\utils\TextFormat;
 
 use pocketmine\Server;
 
@@ -43,6 +44,27 @@ class MinerJob implements Listener {
                 $config->save();
             }
 
+
+        }
+
+        if($config2->get('DisplayBlockBroken') === true ) {
+            $player = $event->getPlayer();
+            $item = $player->getInventory()->getItemInHand();
+            $id = $item->getId();
+
+            $name = $item->getName();
+            $name = preg_replace('/[^a-zA-Z]/', '', $name);
+
+            $name2 = $item->getName();
+            $count = preg_replace('/\D/', '', $name2);
+
+            if(!(is_numeric ($count))) {
+                $count = 1;
+            }
+            $count = $count + 1;
+            $item->setCustomName ("". $name ." [" . $count ."]");
+
+            $player->getInventory()->setItemInHand($item);
 
         }
 
