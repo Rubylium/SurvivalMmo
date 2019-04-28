@@ -17,7 +17,10 @@ This plugin bring an MMO Level style to your pmmp server
 
 ![](https://cdn.discordapp.com/attachments/496362954791583744/571635595806507018/unknown.png)
 
+**BETA** : Added an option to display block breaked per item on the item name ( Not sure if we say that like this in english, anyway here is an gif so you see what i'm talking about )
+*Yes i need to activate windows*
 
+![enter image description here](https://cdn.discordapp.com/attachments/496362954791583744/572027212916719657/ezgif-4-dad0be6734a2.gif)
 # Config
 
 i'm trying to make eveything configurable, if you have any suggestions don't hesitate to ask
