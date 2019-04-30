@@ -53,7 +53,7 @@ class MinerJob implements Listener {
             $id = $item->getId();
 
             $name = $item->getName();
-            $name = preg_replace('/[^a-zA-Z]/', '', $name);
+            $name = preg_replace('/[^a-z A-Z]/', '', $name);
 
             $name2 = $item->getName();
             $count = preg_replace('/\D/', '', $name2);

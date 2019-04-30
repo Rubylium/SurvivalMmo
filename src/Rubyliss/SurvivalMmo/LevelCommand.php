@@ -38,17 +38,19 @@ class LevelCommand extends PluginCommand
 
         $sender->sendMessage('§k§e!!§r §7-------------------- §k§e!!');
         $sender->sendMessage(' ');
-        $sender->sendMessage(' ');
-        $sender->sendMessage('§bMiner Level:§7 '.$Minerlevel);
-        $sender->sendMessage('§bMiner XP:§7 '. $MinerXP . '§a/§7'. $config2->get('MinerMaxExp') . "" );
+        $sender->sendMessage('§6Miner');
+        $sender->sendMessage('§bLevel:§7 '.$Minerlevel);
+        $sender->sendMessage('§bXP:§7 '. $MinerXP . '§a/§7'. $config2->get('MinerMaxExp') . "" );
         $sender->sendMessage("§7".$Miner100."§e%§7 Until your next level");
         $sender->sendMessage('§7--------------------');
-        $sender->sendMessage('§bLumberjack Level:§7 '.$Lumberjacklevel);
-        $sender->sendMessage('§bLumberjack XP:§7 '. $LumberjackXP . '§a/§7'. $config2->get('LumberjackMaxExp') . "" );
+        $sender->sendMessage('§6Lumberjack');
+        $sender->sendMessage('§bLevel:§7 '.$Lumberjacklevel);
+        $sender->sendMessage('§bXP:§7 '. $LumberjackXP . '§a/§7'. $config2->get('LumberjackMaxExp') . "" );
         $sender->sendMessage("§7".$Lumberjack100."§e%§7 Until your next level");
         $sender->sendMessage('§7--------------------');
-        $sender->sendMessage('§bFarmer Level:§7 '.$Farmerlevel);
-        $sender->sendMessage('§bFarmer XP:§7 '. $FarmerXP . '§a/§7'. $config2->get('FarmerMaxExp') . "" );
+        $sender->sendMessage('§6Farmer');
+        $sender->sendMessage('§bLevel:§7 '.$Farmerlevel);
+        $sender->sendMessage('§bXP:§7 '. $FarmerXP . '§a/§7'. $config2->get('FarmerMaxExp') . "" );
         $sender->sendMessage("§7".$Farmer100."§e%§7 Until your next level");
         $sender->sendMessage(' ');
         $sender->sendMessage(' ');

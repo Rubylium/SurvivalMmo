@@ -19,7 +19,7 @@ DisplayBlockBroken: true
 #
 # - EXP Needed per lumberjack level
 LumberjackMaxExp: 10
-# - Miner Level UP message
+# - lumberjack Level UP message
 LumberjackLevelUpMessage: "§k§e!!§r §a§lLumberjack §r§7- You are now level :"
 # - EXP per block broke
 LumberjackExpPerBlock: 0.5
