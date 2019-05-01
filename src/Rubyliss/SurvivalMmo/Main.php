@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener{
         if(!(file_exists($this->getDataFolder()."resources/LevelData/LumberjackLevel/".strtolower($name).".yml"))){
             $configLumberjack = new Config($this->getDataFolder() . "resources/LevelData/LumberjackLevel/" . strtolower($name) . ".yml", Config::YAML);
             $configLumberjack->set('LumberjackXP', 1);
-            $configLumberjack->set('LumberjackLevel', 1);
+            $configLumberjack->set('LumberjackLevel', 2);
             $configLumberjack->save();
             $this->getLogger()->info("§eSurvivalMmo: §aFile lumberjack created!");
         }
@@ -42,7 +42,7 @@ class Main extends PluginBase implements Listener{
         if(!(file_exists($this->getDataFolder()."resources/LevelData/MinerLevel/".strtolower($name).".yml"))){
             $configMiner = new Config($this->getDataFolder() . "resources/LevelData/MinerLevel/".strtolower($name).".yml", Config::YAML);
             $configMiner->set('MinerXP', 1);
-            $configMiner->set('MinerLevel', 1);
+            $configMiner->set('MinerLevel', 2);
             $configMiner->save();
             $this->getLogger()->info("§eSurvivalMmo: §aFile miner created!");
         }
@@ -50,7 +50,7 @@ class Main extends PluginBase implements Listener{
         if(!(file_exists($this->getDataFolder()."resources/LevelData/FarmerLevel/".strtolower($name).".yml"))){
             $configFarmer = new Config($this->getDataFolder() . "resources/LevelData/FarmerLevel/".strtolower($name).".yml", Config::YAML);
             $configFarmer->set('FarmerXP', 1);
-            $configFarmer->set('FarmerLevel', 1);
+            $configFarmer->set('FarmerLevel', 2);
             $configFarmer->save();
             $this->getLogger()->info("§eSurvivalMmo: §aFile Farmer created!");
         }

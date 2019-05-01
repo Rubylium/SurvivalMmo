@@ -32,18 +32,34 @@ class MinerJob implements Listener {
         $name = $player->getName();
 
         $blocks = ["1", "1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "4", "14", "15", "16", "13", "73", "74"];
-        if(in_array($event->getBlock()->getId(), $blocks)){
-            // Check si c'est un nouveau joueurs, création du fichier level mineur
-            if($config->get('MinerXP') >= $config2->get('MinerMaxExp') ) { // Check Level up
-                $config->set('MinerXP',1);
-                $config->set('MinerLevel',$config->get('MinerLevel')+ 1);
-                $config->save();
-                $player->sendMessage($config2->get("MinerLevelUpMessage") . " " . $config->get('MinerLevel')); // Message de level up mineur
-            } else {
-                $config->set('MinerXP',$config->get('MinerXP') + $config2->get("MinerExpPerBlock")); // Ajout de 0.5 XP par block cassé
-                $config->save();
+        if($config2->get('EXPtype') == 1 ) {
+            if(in_array($event->getBlock()->getId(), $blocks)){
+                // Check si c'est un nouveau joueurs, création du fichier level mineur
+                if($config->get('MinerXP') >= $config2->get('MinerMaxExp') ) { // Check Level up
+                    $config->set('MinerXP',1);
+                    $config->set('MinerLevel',$config->get('MinerLevel')+ 1);
+                    $config->save();
+                    $player->sendMessage($config2->get("MinerLevelUpMessage") . " " . $config->get('MinerLevel')); // Message de level up mineur
+                } else {
+                    $config->set('MinerXP',$config->get('MinerXP') + $config2->get("MinerExpPerBlock")); // Ajout de 0.5 XP par block cassé
+                    $config->save();
+                }
+
+
             }
 
+        } else if($config2->get('EXPtype') == 2 ) {
+            if(in_array($event->getBlock()->getId(), $blocks)){
+                if($config->get('MinerXP') >= (int) 100 * log10($config->get('MinerLevel')) ) { // Check Level up
+                    $config->set('MinerXP',1);
+                    $config->set('MinerLevel',$config->get('MinerLevel')+ 1);
+                    $config->save();
+                    $player->sendMessage($config2->get("MinerLevelUpMessage") . " " . $config->get('MinerLevel')); // Message de level up mineur
+                } else {
+                    $config->set('MinerXP',$config->get('MinerXP') + $config2->get("MinerExpPerBlock")); // Ajout de 0.5 XP par block cassé
+                    $config->save();
+                }
+            }
 
         }
 
@@ -62,7 +78,7 @@ class MinerJob implements Listener {
                 $count = 1;
             }
             $count = $count + 1;
-            $item->setCustomName ("". $name ." [" . $count ."]");
+            $item->setCustomName ("". $name ."[" . $count ."]");
 
             $player->getInventory()->setItemInHand($item);
 

@@ -1,11 +1,19 @@
 ---
+#  ▄▀▀░ █▀▀ █▄░█ █▀▀ █▀▀▄ ▄▀▄ █░░
+#  █░▀▌ █▀▀ █░▀█ █▀▀ █▐█▀ █▀█ █░▄
+#  ▀▀▀░ ▀▀▀ ▀░░▀ ▀▀▀ ▀░▀▀ ▀░▀ ▀▀▀
+#
+# EXP type 1 have the same exp required to level up, for exemple if you set MinerMaxExp to 10 every level will need 10 Exp
+# EXP type 2 use logarithm base 10 to make every level harder to get
+#
+EXPtype: 2
 #
 #  █▄░▄█ ▀ █▄░█ █▀▀ █▀▀▄
 #  █░█░█ █ █░▀█ █▀▀ █▐█▀
 #  ▀░░░▀ ▀ ▀░░▀ ▀▀▀ ▀░▀▀
 #
 # - EXP Needed per miner level
-MinerMaxExp: 10
+MinerMaxExp: 10 # Only for EXP type 1
 # - Miner Level UP message
 MinerLevelUpMessage: "§k§e!!§r §a§lMiner §r§7- You are now level :"
 # - EXP per block broke
@@ -18,7 +26,7 @@ DisplayBlockBroken: true
 #  ▀▀▀ ░▀░ ▀░░░▀ ▀▀░ ▀▀▀ ▀░▀▀ ▀▀▀ ▀░▀ ░▀ ▀░▀▀
 #
 # - EXP Needed per lumberjack level
-LumberjackMaxExp: 10
+LumberjackMaxExp: 10 # Only for EXP type 1
 # - lumberjack Level UP message
 LumberjackLevelUpMessage: "§k§e!!§r §a§lLumberjack §r§7- You are now level :"
 # - EXP per block broke
@@ -29,7 +37,7 @@ LumberjackExpPerBlock: 0.5
 #  ▀░ ▀░▀ ▀░▀▀ ▀░░░▀ ▀▀▀ ▀░▀▀
 #
 # - EXP Needed per farmer level
-FarmerMaxExp: 10
+FarmerMaxExp: 10 # Only for EXP type 1
 # - farmer Level UP message
 FarmerLevelUpMessage: "§k§e!!§r §a§lLumberjack §r§7- You are now level :"
 # - EXP per block broke
